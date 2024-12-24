@@ -1,0 +1,54 @@
+{
+  "name": "@longnc/themartec-react-native-version-check",
+  "version": "1.0.0",
+  "description": "A version checker for react-native applications",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "android",
+    "ios",
+    "version check",
+    "version",
+    "app version",
+    "market version",
+    "app store version"
+  ],
+  "license": "MIT",
+  "author": "Long Nguyen <long.nguyen@themartec.com> (https://github.com/longthemartec)",
+  "contributors": [
+    {
+      "name": "Taehyun Kim",
+      "email": "kgyoo8232@gmail.com"
+    },
+    {
+      "name": "Thomas Schoffelen",
+      "email": "thomas@includable.com"
+    },
+    {
+      "name": "Mohamad Arif Raja",
+      "email": "rfraja2943@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/themartec/react-native-version-check",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themartec/react-native-version-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/themartec/react-native-version-check/issues"
+  },
+  "dependencies": {
+    "lodash.isfunction": "^3.0.9",
+    "lodash.isnil": "^4.0.0",
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "react-native": "^0.76.5"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.48.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
